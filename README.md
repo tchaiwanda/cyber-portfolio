@@ -15,9 +15,9 @@ Build a portfolio page from scratch, which you can add to as the course progress
 
 ## Screenshots
 
-![Portfolio Shot](/Images/shot3.png)
-![Portfolio Shot2](/Images/shot1.png)
-![Portfolio Shot2](/Images/shot2.png)
+![Portfolio Shot](/Users/tchai/Updated-Portfolio/images/shot3.png)
+![Portfolio Shot2](/Users/tchai/Updated-Portfolio/images/shot1.png)
+![Portfolio Shot2](/Users/tchai/Updated-Portfolio/images/shot2.png)
 
 ---
 
