@@ -13,17 +13,19 @@
         <div class="container">
             <nav>
                 <img src="images/logo.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Software Developer</p>
-                <h1>Hi, I'm <span>Tchaiwanda</span><br>From New Haven, CT</h1>
+                <p>Software Developer,</p>
+                <h1>Hello, I'm <span>Tchaiwanda</span><br></h1>
             </div>
         </div>
     </div>
@@ -37,7 +39,9 @@
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima tempore architecto eum tenetur cum vero quidem quas odio facere repudiandae ipsa quam cupiditate mollitia, non ut quibusdam odit placeat totam!
+                        A recent graduate from Post University with a BSc in Computer Information Systems. Although I do not have the most extensive work history, 
+                        what I lack in experience, I make up for in ethusiasm and dedication. I am a contributor and creator of multiple web applications using JavaScript, HTML, CSS, 
+                        and other well known programming languages. I am continuing to sharpen my skills by taking on new programming projects and studying for my CompTIA Sec+ certification.
                     </p>
 
                     <div class="tab-titles">
@@ -47,50 +51,49 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span> UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span> Web Development</span><br>Web/App Development</li>
-                            <li><span> App Development</span><br>Building Android /iOS applications</li>
+                            <li><span> UI/UX</span><br> Create the user interface for an app or website.</li>
+                            <li><span> Web Development</span><br>Creating, building, and maintaining websites and web applications that run online on a browser.</li>
+                            <li><span> Programming</span><br>Writing code to facilitate specific actions in a computer, application or software program.</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span> Current</span><br>I.T Intern at The Children's Center of Hamden</li>
-                            <li><span> 2021</span><br>Web/ App Development</li>
-                            <li><span> 2021</span><br>Debugging/ Reviewing Code</li>
+                            <li><span> Current</span><br>Information Technology Intern, The Children's Center of Hamden</li>
+                            <li><span> 2021</span><br>Full-Stack Web Developer Certificate, UConn</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
                             <li><span>2023</span><br>BSc Computer Information Systems, Post University</li>
-                            <li><span> 2021</span><br>Professional Coding Bootcamp Full-Stack Web Developer, UConn</li>
+                            <li><span> 2021</span><br>Professional Coding Bootcamp, UConn</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- -------------services------------ -->
-    <div id="services">
+    <!-- -------------skills------------ -->
+    <div id="skills">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem deserunt reprehenderit provident omnis nihil distinctio aperiam saepe suscipit fugiat! Aut illum atque deleniti earum itaque, dolore mollitia labore odit!</p>
-                    <a href="#">Learn more</a>
+                    <h2>HTML</h2>
+                    <p>HTML is the universal markup language for the Web. HTML lets you format text, add graphics, create links, input forms, frames and tables, etc, and save it all in a text file that any browser can read and display.</p>
+                    <a href="http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/html/html_summary.asp.html#gsc.tab=0">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-crop"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem deserunt reprehenderit provident omnis nihil distinctio aperiam saepe suscipit fugiat! Aut illum atque deleniti earum itaque, dolore mollitia labore odit!</p>
-                    <a href="#">Learn more</a>
+                    <h2>CSS</h2>
+                    <p>CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users.</p>
+                    <a href="https://www.mygreatlearning.com/blog/css-tutorial/#:~:text=CSS%20stands%20for%20Cascading%20Style,style%20sheets%20for%20the%20web.">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store"></i>
-                    <h2>App Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem deserunt reprehenderit provident omnis nihil distinctio aperiam saepe suscipit fugiat! Aut illum atque deleniti earum itaque, dolore mollitia labore odit!</p>
-                    <a href="#">Learn more</a>
+                    <h2>JavaScript</h2>
+                    <p>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.</p>
+                    <a href="https://www.tutorialspoint.com/javascript/javascript_overview.htm#:~:text=What%20is%20JavaScript%20%3F,language%20with%20object-oriented%20capabilities.">Learn more</a>
                 </div>
             </div>
         </div>
@@ -99,31 +102,61 @@
 
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">Projects</h1>
+            <h1 class="sub-title">Portfolio</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/work-1.png">
                     <div class="layer">
-                        <h3>Random Recipe Generator App</h3>
+                        <h3>Random Recipe App</h3>
+                        <p>This web app allows you to press a button to generate a random recipe with a video tutorial.</p>
+                        <a href="https://tchaiwanda.github.io/RandomRecipeGenerator/"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This web app allows you to Explore music, create a personal account that allows you to create as many playlists 
+                            with as many songs you would like.</p>
+                        <a href="https://github.com/dmcaulay97/Vibez"><i class="fa-solid fa-link"></i></a>
+                    </div>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>READ me Generator</h3>
+                        <p>This is a command line application that allows you to generate a READ me file for all your programming needs!</p>
+                        <a href="https://github.com/tchaiwanda/READMEGenerator"><i class="fa-solid fa-link"></i></a>
+                    </div>
                 </div>
             </div>
+            <a href="https://github.com/tchaiwanda?tab=repositories" class="btn">See more</a>
         </div>
     </div>
+<!--------------------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tchaiwanda.chambers@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tchaiwanda/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/tchaiwanda"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/chambers-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © </p>
+    </div>
+</div>
 
 
 
 
 
-
-
-  <!----------------------------col-java---------->  
+  <!---------------------------java---------->  
 
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
@@ -139,6 +172,20 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab")
     }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
 </script>
 
 </body>
