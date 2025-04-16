@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tchaiwanda's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <script src="https://kit.fontawesome.com/035467559e.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,7 +26,7 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Software Engineer,</p>
+                <p>System Administrator,</p>
                 <h1>Hello, I'm <span>Tchaiwanda</span><br></h1>
             </div>
         </div>
@@ -34,137 +35,213 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1">
-                    <img src="images/user.png">
-                </div>
+              <div class="profile-img-wrapper">
+                <img src="images/user.png" alt="Profile photo" class="profile-pic">
+              </div>              
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <p>
-                        Self-motivated and detail-oriented software engineer with a Bachelor’s degree in Computer Information Systems 
-                        and a strong foundation in programming, software development, and problem-solving. Proficient in Python, and 
-                        JavaScript, with hands-on experience in developing, testing, and maintaining software applications through 
-                        academic projects and group collaboration. 
+                        System Administrator with 4+ years in IT and a growing specialization in cybersecurity.
+                        Experienced in managing Active Directory, firewalls, and endpoint protection.
+                        Currently building hands-on skills in threat detection, SIEM, and ethical hacking.
+                        Eager to contribute to a SOC team and grow within a security-focused role.
                     </p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
+                      <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                      <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                    </div>                    
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Expertise in creating user-centered designs with a focus on usability, accessibility, and visual aesthetics.</li>
-                            <li><span>Web Development</span><br>Creating, building, and maintaining websites and web applications that run online on a browser.</li>
-                            <li><span>Programming</span><br>Writing code to facilitate specific actions in a computer, application or software program.</li>
-                            <li><span>Version Controls</span><br>Proficient in Git and GitHub for source code management, including branching, merging, and collaborative workflows.</li>
-                            <li><span>Software Development Life Cycle (SDLC)</span><br>Hands-on experience with various SDLC models, including Agile (Scrum/Kanban), Waterfall, and Iterative, to drive project success and ensure high-quality software delivery.</li>
-                            <li><span>Networking Fundamentals</span><br>Strong understanding of core networking concepts including IP addressing, subnetting, and routing protocols.</li>
-                            <li><span>Microsoft Azure Fundamentals AZ-900</span><br>Successfully completed an online course designed to provide foundational knowledge of Microsoft Azure, including core Azure services, cloud concepts, and basic Azure management and governance.</li>
-                            <li><span>PowerShell</span><br>Developed and maintained PowerShell scripts to automate system administration tasks, manage user accounts, and perform bulk data operations, resulting in a 30% reduction in manual effort and increased operational efficiency.</li>
-
-
-
+                          <li><span>Security & Compliance</span><br>NIST SP 800-53, ITIL, IAM, Risk Management</li>
+                          <li><span>Cybersecurity</span><br>SIEM Tools, Threat Detection, Incident Response, Linux Hardening</li>
+                          <li><span>Networking</span><br>DNS, DHCP, VLANs, TCP/IP, Routing & Switching</li>
+                          <li><span>Cloud & Systems</span><br>Azure, vSphere, Intune, Windows Server</li>
+                          <li><span>Scripting</span><br>PowerShell, Bash, PowerCLI</li>
+                          <li><span>Operating Systems</span><br>Windows, Linux, MacOS</li>
                         </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
+                      </div>
+                      <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span> October 2023 - June 2024</span><br>IT Analyst, Richemont</li>
-                            <li><span> 2023</span><br>PC Technician, Waterbury Hospital</li>
-                            <li><span> 2023</span><br>Information Technology Intern, The Children's Center of Hamden</li>
-                            <li><span> 2021</span><br>Full-Stack Web Developer Bootcamp, UConn</li>
+                          <li><span>Present</span><br>System Administrator, Cyrion</li>
+                          <li><span>Sep 2024 - Feb 2025</span><br>IT Support Technician, Yale University</li>
+                          <li><span>Oct 2023 - Jun 2024</span><br>IT Helpdesk Analyst, Richemont NA</li>
+                          <li><span>Aug 2023 - Oct 2023</span><br>Desktop Support Technician, Waterbury Hospital</li>
                         </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
+                      </div>
+                      <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2023</span><br>BSc Computer Information Systems, Post University</li>
-                            <li><span> 2021</span><br>Full-Stack Web Developer Bootcamp, University of Connecticut</li>
+                          <li><span>2023</span><br>BSc Computer Information Systems, Post University</li>
+                          <li><span>2021</span><br>Full-Stack Web Developer Bootcamp, UConn</li>
                         </ul>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- -------------certs------------ -->
-    <div id="certifications">
+              </section>
+                    </div>
+    <!-- -------------certifications------------ -->
+    <section id="certifications">
         <div class="container">
-            <h1 class="sub-title">Certifications</h1>
-            <div class="skills-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>CompTIA Network+ Certification</h2>
-                    <p>In Progress</p>
-                    <a href="https://www.comptia.org/certifications/a#overview">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h2>Scrum Fundamentals Certified</h2>
-                    <p>August 2023</p>
-                    <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=991499">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>Full-Stack Web Developer</h2>
-                    <p>September 2021</p>
-                    <a href="https://www.linkedin.com/in/tchaiwanda/details/featured/1635535507443/single-media-viewer/?profileId=ACoAADTUIKEBNyVDdtQq6I75gLUNBfdHXugZlY0">Learn more</a>
-                </div>
-            </div>
+          <h1 class="sub-title">Certifications</h1>
+          <div class="skills-list">
+            <div><i class="fa-solid fa-code"></i><h2>CompTIA Network+</h2><p>April 2025</p></div>
+            <div><i class="fa-solid fa-lock"></i><h2>CompTIA Security+</h2><p>Expected May 2025</p></div>
+            <div><i class="fa-brands fa-google"></i><h2>Google Cybersecurity Certificate</h2><p>April 2025</p></div>
+          </div>
         </div>
-    </div>
+      </section>
     <!-- --------Portfolio------------------ -->
 
     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/work-1.png">
-                    <div class="layer">
-                        <h3>Random Recipe App</h3>
-                        <p>This web app allows you to press a button to generate a random recipe with a video tutorial.</p>
-                        <a href="https://tchaiwanda.github.io/RandomRecipeGenerator/"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-2.png">
-                    <div class="layer">
-                        <h3>Music App</h3>
-                        <p>This web app allows you to Explore music, create a personal account that allows you to create as many playlists 
-                            with as many songs you would like.</p>
-                        <a href="https://github.com/dmcaulay97/Vibez"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png">
-                    <div class="layer">
-                        <h3>README Generator</h3>
-                        <p>This is a command line application that allows you to generate a READ me file for all your programming needs!</p>
-                        <a href="https://github.com/tchaiwanda/READMEGenerator"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+    
+          <!-- Project Card: Virtual SOC Lab -->
+          <div class="work" onclick="openModal('modal-soc')">
+            <img src="images/soc-lab.png" alt="Virtual SOC Lab">
+            <div class="layer">
+              <h3>Virtual SOC Lab Simulation</h3>
+              <p>Simulated real-world attacks and defensive strategies in a lab environment using Kali Linux & Wireshark.</p>
             </div>
-            <a href="https://github.com/tchaiwanda?tab=repositories" class="btn">See more</a>
+          </div>
+    
+          <!-- Project Card: Network Infra -->
+          <div class="work" onclick="openModal('modal-net')">
+            <img src="images/network-lab.png" alt="Network Infrastructure Lab">
+            <div class="layer">
+              <h3>Network Infrastructure & Threat Lab</h3>
+              <p>Configured enterprise-like networks with routers, DNS, and firewalls to practice threat analysis.</p>
+            </div>
+          </div>
+    
+          <!-- Project Card: Python Port Scanner -->
+          <div class="work" onclick="openModal('modal-portscanner')">
+            <img src="images/port-scanner.png" alt="Port Scanner">
+            <div class="layer">
+              <h3>Python-Based Port Scanner</h3>
+              <p>Developed a port scanner using Python sockets and integrated Nmap for deeper reconnaissance.</p>
+            </div>
+          </div>
+    
+          <!-- Project Card: Snapshot Automation -->
+          <div class="work" onclick="openModal('modal-recipe')">
+            <img src="images/work-1.png" alt="Recipe App">
+            <div class="layer">
+              <h3>PowerCLI Snapshot Automation Script</h3>
+              <p>PowerShell script that generates VM snapshots and emails them daily to manage vSphere eniroments.</p>
+            </div>
+          </div>
+    
+          <!-- Project Card: Music App -->
+          <div class="work" onclick="openModal('modal-music')">
+            <img src="images/work-2.png" alt="Music App">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>App for exploring music and building playlists using a full-stack MERN architecture.</p>
+            </div>
+          </div>
+    
+          <!-- Project Card: README Generator -->
+          <div class="work" onclick="openModal('modal-readme')">
+            <img src="images/work-3.png" alt="README Generator">
+            <div class="layer">
+              <h3>README Generator</h3>
+              <p>CLI app that auto-generates professional README.md files for your repos.</p>
+            </div>
+          </div>
+    
         </div>
+    
+        <a href="https://github.com/tchaiwanda?tab=repositories" class="btn">See more</a>
+      </div>
+    
+      <!-- 🔍 Modal Templates -->
+      <div id="modal-soc" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-soc')">&times;</span>
+          <h2>Virtual SOC Lab Simulation</h2>
+          <p>Built a virtual SOC lab using Kali Linux and Wireshark to simulate cyberattacks and responses. Practiced exploitation, threat hunting, and packet analysis in a secure environment.</p>
+          <a href="https://github.com/tchaiwanda/SOC-Lab" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    
+      <div id="modal-net" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-net')">&times;</span>
+          <h2>Network Infrastructure & Threat Analysis Lab</h2>
+          <p>Simulated enterprise networking by configuring virtual routers, DNS, and firewalls. Identified vulnerabilities and practiced system monitoring techniques.</p>
+          <a href="https://github.com/tchaiwanda/NetworkLab" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    
+      <div id="modal-portscanner" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-portscanner')">&times;</span>
+          <h2>Python-Based Port Scanner</h2>
+          <p>Created a custom Python tool to scan open ports and enumerate services. Integrated Nmap for deeper insights, showcasing offensive security skills.</p>
+          <a href="https://github.com/tchaiwanda/PortScanner" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    
+      <div id="modal-recipe" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-recipe')">&times;</span>
+          <h2>Random Recipe App</h2>
+          <p>Generates recipes with a video tutorial by pulling from the MealDB API. Great for learning API integration and DOM manipulation.</p>
+          <a href="https://tchaiwanda.github.io/RandomRecipeGenerator/" target="_blank">View Live</a>
+        </div>
+      </div>
+    
+      <div id="modal-music" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-music')">&times;</span>
+          <h2>Music App</h2>
+          <p>Explore, create, and manage music playlists. Features user login and dynamic playlist creation. Built with React, MongoDB, Node.js, and Express.</p>
+          <a href="https://github.com/dmcaulay97/Vibez" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    
+      <div id="modal-readme" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal-readme')">&times;</span>
+          <h2>README Generator</h2>
+          <p>Generates professional README files via command line prompts. Useful for developers to quickly document projects.</p>
+          <a href="https://github.com/tchaiwanda/READMEGenerator" target="_blank">View on GitHub</a>
+        </div>
+      </div>
     </div>
+    
 <!--------------------------contact-------------->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>tchaiwanda.chambers@gmail.com</p>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/tchaiwanda/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/tchaiwanda"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <a href="images/chambers-cv.pdf" download class="btn btn2">Download CV</a>
-            </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright © </p>
-    </div>
+<section id="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>Have a question, opportunity, or just want to say hello? Feel free to reach out below.</p>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p class="form-message" id="form-message"></p>
+    </form>    
+    <!-- Social Links -->
+<div class="social-icons">
+  <a href="https://github.com/tchaiwanda" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/tchaiwanda/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="mailto:tchaiwanda.chambers@gmail.com"><i class="fas fa-envelope"></i></a>
 </div>
 
+  </div>
+</section>
+</main>
 
+<footer>
+  <div class="copyright">
+    <p>© 2025 Tchaiwanda Chambers. All rights reserved.</p>
+  </div>
+</footer>
 
 
 
@@ -174,17 +251,16 @@
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
    
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab")
+    function opentab(tabname, event){
+    for(let tablink of tablinks){
+        tablink.classList.remove("active-link");
     }
-
+    for(let tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
 </script>
 
 <script>
@@ -199,6 +275,44 @@
     }
 
 </script>
+<script>
+  // Open modal by ID
+  function openModal(id) {
+    document.getElementById(id).style.display = 'block';
+  }
 
+  // Close modal by ID
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+  }
+
+  // Optional: close modal when clicking outside the modal content
+  window.onclick = function(event) {
+    const modals = document.querySelectorAll(".modal");
+    modals.forEach(modal => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  }
+</script>
+<script>
+  const form = document.getElementById('contact-form');
+  const message = document.getElementById('form-message');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    message.textContent = 'Message sent successfully!';
+    message.style.color = '#00ff88';
+
+    // Optional: actually send using mailto
+    window.location.href = `mailto:tchaiwanda.chambers@gmail.com?subject=Message from ${form.name.value}&body=${form.message.value}`;
+
+    setTimeout(() => {
+      message.textContent = '';
+      form.reset();
+    }, 4000);
+  });
+</script>
 </body>
 </html>

@@ -18,8 +18,8 @@ Build a portfolio page from scratch, which you can add to as the course progress
 
 ![Screenshot](/images/portfolio3.png)
 ![Screenshot](/images/portfolio1.png)
+![Screenshot](/images/portfolio4.png)
 ![Screenshot](/images/portfolio2.png)
-
 ---
 
 ### More
