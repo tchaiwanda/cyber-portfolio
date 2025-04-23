@@ -33,6 +33,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/tchaiwanda)
 
 ## Screenshots
 
+![Screenshot](/images/portfolio3.png)
 ![Screenshot](/images/portfolio1.png)
 ![Screenshot](/images/portfolio4.png)
 ![Screenshot](/images/portfolio2.png)
