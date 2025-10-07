@@ -1,4 +1,4 @@
-# 🌐 Tchaiwanda's Cybersecurity Portfolio
+# 🌐 Tchai's Cloud Portfolio
 
 Welcome to my portfolio! I'm building hands-on experience through practical labs and tools that reflect real-world cloud security workflows.
 
@@ -25,8 +25,9 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/tchaiwanda)
 ## Screenshots
 
 ![Screenshot](/images/portfolio3.png)
-![Screenshot](/images/portfolio2.png)
-![Screenshot](/images/portfolio4.png)
+![Screenshot](/images/about.png)
+![Screenshot](/images/certs.png)
+![Screenshot](/images/projects.png)
 
 ---
 

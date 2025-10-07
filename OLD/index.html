@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tchai's Portfolio</title>
-    <link rel="stylesheet" href="style_merged.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <script src="https://kit.fontawesome.com/035467559e.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="theme-overrides.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="header">
-        <div class="container navbar">
-            <a class="brand" href="#header">TC</a>
+        <div class="container">
             <nav>
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
@@ -30,6 +31,21 @@
             <div class="header-text">
                 <p>Cloud Engineer,</p>
                 <h1>Hello, I'm <span>Tchai</span><br></h1>
+      <!-- Added hero headshot (non-destructive) -->
+      <div class="hero-art-inline">
+
+        <svg class="cloud-inline" viewBox="0 0 600 200" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0%" stop-color="#E8F1FD"/>
+              <stop offset="100%" stop-color="#F6FAFF"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#g1)"
+            d="M90 150c-30 0-55-20-55-45s25-45 55-45c8-24 36-40 67-40 36 0 65 20 69 46 6-2 13-3 20-3 28 0 51 16 51 36 0 3 0 6-1 9 25 2 45 17 45 35 0 20-22 36-49 36H90z"/>
+        </svg>
+      </div>
+
             </div>
         </div>
     </div>
@@ -56,12 +72,11 @@
                     </div>                    
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                          <li><span>Security & Compliance</span><br>MITRE ATT&CK, NIST SP 800-53, Conditional Access, RBAC, Zero Trust</li>
-                          <li><span>Cloud & Systems</span><br>Microsoft Azure (Azure AD, Sentinel, Defender), AWS (IAM, CloudTrail,
-                            S3/EBS security)
-                            </li>
-                          <li><span>Networking</span><br>NGFWs, EDR, TCP/IP, VPN, DNS, traffic analysis (Wireshark)</li>
-                          <li><span>Scripting & Automation</span><br>PowerShell, Bash, PowerCLI, Python</li>
+                          <li><span>Security & Compliance</span><br>MITRE ATT&CK, NIST SP 800-53, ITIL, IAM, Conditional Access, RBAC, Zero Trust</li>
+                          <li><span>Cybersecurity</span><br>Splunk, Sentinel, Threat Detection, Incident Response, Linux Hardening</li>
+                          <li><span>Networking</span><br>DNS, DHCP, VLANs, TCP/IP, Firewalls, Routing & Switching</li>
+                          <li><span>Cloud & Systems</span><br>Azure, vSphere, AWS</li>
+                          <li><span>Scripting</span><br>PowerShell, Bash, PowerCLI</li>
                           <li><span>Operating Systems</span><br>Windows, Linux, MacOS</li>
                         </ul>
                       </div>
@@ -90,12 +105,12 @@
         <div class="container">
           <h1 class="sub-title">Certifications</h1>
           <div class="skills-list">
-            <div><i class="fa-brands fa-microsoft"></i><h2>Microsoft Certified: Azure Fundamentals</h2><p></p></div>
-            <div><i class="fa-brands fa-microsoft"></i></i><h2>Microsoft Certified: Security, Compliance, and Identity</h2><p></p></div>
-            <div><i class="fa-brands fa-aws"></i><h2>AWS Certified Solutions Architect Associate (In Progress)</h2><p></p></div>
-            <div><i class="fa-solid fa-wifi"></i><h2>CompTIA Network+</h2><p></p></div>
+            <div><i class="fa-solid fa-code"></i><h2>CompTIA Network+</h2><p></p></div>
             <div><i class="fa-solid fa-lock"></i><h2>CompTIA Security+</h2><p></p></div>
             <div><i class="fa-brands fa-google"></i><h2>Google Cybersecurity Professional</h2><p></p></div>
+            <div><i class="fa-solid fa-code"></i><h2>Microsoft Certified: Azure Fundamentals</h2><p></p></div>
+            <div><i class="fa-solid fa-lock"></i><h2>Microsoft Certified: Security, Compliance, and Identity</h2><p></p></div>
+            <div><i class="fa-solid fa-code"></i><h2>AWS Certified Solutions Architect Associate (In Progress)</h2><p></p></div>
           </div>
         </div>
       </section>
