@@ -25,6 +25,7 @@
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <span class="nav-close" aria-label="Close menu"></span>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
@@ -323,6 +324,24 @@
       message.textContent = '';
       form.reset();
     }, 4000);
+  const menuBtn = document.querySelector('.menu-toggle, .fa-bars'); // your hamburger
+  const navList = document.querySelector('nav ul');
+  const closeBtn = document.querySelector('.nav-close');
+
+  function openMenu(){
+    navList.classList.add('show');
+    document.body.classList.add('menu-open');
+  }
+  function closeMenu(){
+    navList.classList.remove('show');
+    document.body.classList.remove('menu-open');
+  }
+
+  if(menuBtn) menuBtn.addEventListener('click', openMenu);
+  if(closeBtn) closeBtn.addEventListener('click', closeMenu);
+
+  // Optional: close when clicking a link
+  navList?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
   });
 </script>
 </body>

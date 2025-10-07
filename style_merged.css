@@ -775,10 +775,42 @@ header {
     .header-text h1 span:hover::after {
     width: 100%;
     }
-    
     header {
     background: linear-gradient(180deg, #f9fbff 0%, #ffffff 100%);
     background-image: url('https://www.transparenttextures.com/patterns/clouds.png');
-      background-repeat: repeat;
+    background-repeat: repeat;
     background-size: contain;
     }
+    /* ===== Mobile nav overlay fix ===== */
+@media (max-width: 768px){
+  /* Make the menu cover the whole screen when shown */
+  nav ul{
+    position: fixed !important;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw; height: 100vh;
+    padding: 96px 24px 24px;          /* room for the close button */
+    background: #0A66C2;              /* your cloud blue */
+    transform: translateX(100%);      /* start off-screen to the right */
+    transition: transform .28s ease;
+    z-index: 9999;
+    display: block;                   /* stack links vertically */
+  }
+  /* When toggled on */
+  nav ul.show{ transform: translateX(0); }
+
+  /* Menu items */
+  nav ul li{ display:block; margin: 18px 0; }
+  nav ul li a{ color: #fff !important; font-size: 20px; }
+
+  /* Close button (X) */
+  .nav-close{
+    position: absolute; top: 24px; right: 24px;
+    font-size: 28px; color: #fff; cursor: pointer;
+  }
+
+  /* Hamburger alignment */
+  .menu-toggle{ cursor: pointer; }
+
+  /* Prevent background scroll when menu is open */
+  body.menu-open{ overflow: hidden; }
+}
