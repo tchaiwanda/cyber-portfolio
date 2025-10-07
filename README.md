@@ -24,7 +24,6 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/tchaiwanda)
 
 ## Screenshots
 
-![Screenshot](/images/portfolio3.png)
 ![Screenshot](/images/about.png)
 ![Screenshot](/images/certs.png)
 ![Screenshot](/images/projects.png)
