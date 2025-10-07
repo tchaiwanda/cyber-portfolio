@@ -1,6 +1,6 @@
 # 🌐 Tchaiwanda's Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio! I'm building hands-on experience through practical labs and tools that reflect real-world SOC analyst workflows, threat detection, and ethical hacking skills.
+Welcome to my portfolio! I'm building hands-on experience through practical labs and tools that reflect real-world cloud security workflows.
 
 ---
 
@@ -15,15 +15,6 @@ Custom-built multithreaded TCP port scanner developed in Python, demonstrating n
 ### More projects coming soon...
 ---
 
-## 📚 Skills & Tools
-
-- **Security Tools:** Wireshark, Nmap, Tcpdump, Netcat, Metasploit
-- **Languages:** Python, Bash
-- **Operating Systems:** Kali Linux, Ubuntu, macOS
-- **Concepts:** SOC workflows, blue team analysis, packet capture, port scanning, network monitoring
-
----
-
 ## 📫 Contact
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/tchaiwanda)  
@@ -34,9 +25,9 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/tchaiwanda)
 ## Screenshots
 
 ![Screenshot](/images/portfolio3.png)
-![Screenshot](/images/portfolio1.png)
-![Screenshot](/images/portfolio4.png)
 ![Screenshot](/images/portfolio2.png)
+![Screenshot](/images/portfolio4.png)
+
 ---
 
 ### More
