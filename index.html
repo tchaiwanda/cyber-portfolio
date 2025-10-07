@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tchaiwanda's Portfolio</title>
+    <title>Tchai's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <script src="https://kit.fontawesome.com/035467559e.js" crossorigin="anonymous"></script>
@@ -26,7 +26,7 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>System Administrator,</p>
+                <p>Cloud Engineer,</p>
                 <h1>Hello, I'm <span>Tchaiwanda</span><br></h1>
             </div>
         </div>
@@ -41,10 +41,10 @@
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <p>
-                        System Administrator/ Cybersecurity Enthusiast with 4+ years in IT and a growing specialization in cybersecurity.
-                        Experienced in managing Active Directory, firewalls, and endpoint protection.
-                        Currently building hands-on skills in threat detection, SIEM, and ethical hacking.
-                        Eager to contribute to a SOC team and grow within a security-focused role.
+                        I’m a cybersecurity enthusiast with a focus on cloud security and infrastructure protection. 
+                        Skilled in monitoring, securing, and optimizing environments across AWS and Azure,
+                        I enjoy building resilient systems that can withstand evolving threats.
+                        My goal is to grow as a cloud security professional and help organizations strengthen their defenses in the cloud.
                     </p>
 
                     <div class="tab-titles">
@@ -54,20 +54,21 @@
                     </div>                    
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                          <li><span>Security & Compliance</span><br>NIST SP 800-53, ITIL, IAM, Risk Management</li>
-                          <li><span>Cybersecurity</span><br>SIEM Tools, Threat Detection, Incident Response, Linux Hardening</li>
-                          <li><span>Networking</span><br>DNS, DHCP, VLANs, TCP/IP, Routing & Switching</li>
-                          <li><span>Cloud & Systems</span><br>Azure, vSphere, Intune, Windows Server</li>
+                          <li><span>Security & Compliance</span><br>MITRE ATT&CK, NIST SP 800-53, ITIL, IAM, Conditional Access, RBAC, Zero Trust</li>
+                          <li><span>Cybersecurity</span><br>Splunk, Sentinel, Threat Detection, Incident Response, Linux Hardening</li>
+                          <li><span>Networking</span><br>DNS, DHCP, VLANs, TCP/IP, Firewalls, Routing & Switching</li>
+                          <li><span>Cloud & Systems</span><br>Azure, vSphere, AWS</li>
                           <li><span>Scripting</span><br>PowerShell, Bash, PowerCLI</li>
                           <li><span>Operating Systems</span><br>Windows, Linux, MacOS</li>
                         </ul>
                       </div>
                       <div class="tab-contents" id="experience">
                         <ul>
-                          <li><span>Present</span><br>System Administrator, Cyrion</li>
-                          <li><span>Sep 2024 - Feb 2025</span><br>IT Support Technician, Yale University</li>
-                          <li><span>Oct 2023 - Jun 2024</span><br>IT Helpdesk Analyst, Richemont NA</li>
-                          <li><span>Aug 2023 - Oct 2023</span><br>Desktop Support Technician, Waterbury Hospital</li>
+                          <li><span>Mar 2025 - Present</span><br>Security Administrator, Cyrion</li>
+                          <li><span>Sep 2024 - Feb 2025</span><br>IT Security Technician, Yale University</li>
+                          <li><span>Oct 2023 - Jun 2024</span><br>IT Security Analyst, Richemont NA</li>
+                          <li><span>Aug 2023 - Oct 2023</span><br>Endpoint Security Technician, Waterbury Hospital</li>
+                          <li><span>Oct 2021 - June 2023</span><br>IT Security Intern, The Children's Center of Hamden</li>
                         </ul>
                       </div>
                       <div class="tab-contents" id="education">
@@ -86,9 +87,12 @@
         <div class="container">
           <h1 class="sub-title">Certifications</h1>
           <div class="skills-list">
-            <div><i class="fa-solid fa-code"></i><h2>CompTIA Network+</h2><p>April 2025</p></div>
-            <div><i class="fa-solid fa-lock"></i><h2>CompTIA Security+</h2><p>Expected May 2025</p></div>
-            <div><i class="fa-brands fa-google"></i><h2>Google Cybersecurity Certificate</h2><p>April 2025</p></div>
+            <div><i class="fa-solid fa-code"></i><h2>CompTIA Network+</h2><p></p></div>
+            <div><i class="fa-solid fa-lock"></i><h2>CompTIA Security+</h2><p></p></div>
+            <div><i class="fa-brands fa-google"></i><h2>Google Cybersecurity Professional</h2><p></p></div>
+            <div><i class="fa-solid fa-code"></i><h2>Microsoft Certified: Azure Fundamentals</h2><p></p></div>
+            <div><i class="fa-solid fa-lock"></i><h2>Microsoft Certified: Security, Compliance, and Identity</h2><p></p></div>
+            <div><i class="fa-solid fa-code"></i><h2>AWS Certified Solutions Architect Associate (In Progress)</h2><p></p></div>
           </div>
         </div>
       </section>
@@ -99,21 +103,22 @@
         <h1 class="sub-title">Projects</h1>
         <div class="work-list">
     
+
+          <!-- Project Card: Splunk Brute Force Detection Lab -->
+          <div class="work" onclick="openModal('modal-net')">
+            <img src="images/splunk.png" alt="Brute Force Detection Lab">
+            <div class="layer">
+              <h3>Splunk Brute Force Detection Lab</h3>
+              <p>Built a lab to identify brute force login attempts using log analysis and detection rules, showcasing skills in monitoring, alerting, and defending against credential-based attacks.</p>
+            </div>
+          </div>
+
           <!-- Project Card: Virtual SOC Lab -->
           <div class="work" onclick="openModal('modal-soc')">
             <img src="images/soc-lab.png" alt="Virtual SOC Lab">
             <div class="layer">
               <h3>Virtual SOC Lab Simulation</h3>
               <p>Simulated real-world attacks and defensive strategies in a lab environment using Kali Linux & Wireshark.</p>
-            </div>
-          </div>
-    
-          <!-- Project Card: Network Infra -->
-          <div class="work" onclick="openModal('modal-net')">
-            <img src="images/network-lab.png" alt="Network Infrastructure Lab">
-            <div class="layer">
-              <h3>Network Infrastructure & Threat Lab</h3>
-              <p>Configured enterprise-like networks with routers, DNS, and firewalls to practice threat analysis.</p>
             </div>
           </div>
     
@@ -126,7 +131,7 @@
             </div>
           </div>
     
-          <!-- Project Card: Snapshot Automation -->
+          <!-- Project Card: Snapshot Automation
           <div class="work" onclick="openModal('modal-recipe')">
             <img src="images/work-1.png" alt="Recipe App">
             <div class="layer">
@@ -134,8 +139,8 @@
               <p>PowerShell script that generates VM snapshots and emails them daily to manage vSphere eniroments.</p>
             </div>
           </div>
-    
-          <!-- Project Card: Music App -->
+             -->
+          <!-- Project Card: Music App 
           <div class="work" onclick="openModal('modal-music')">
             <img src="images/work-2.png" alt="Music App">
             <div class="layer">
@@ -143,7 +148,7 @@
               <p>App for exploring music and building playlists using a full-stack MERN architecture.</p>
             </div>
           </div>
-    
+             -->
         <!-- Project Card: Wi-Fi Security Lab -->
         <div class="work" onclick="openModal('modal-wifi')">
           <img src="images/wifi-lab.png" alt="Wi-Fi Security Lab">
